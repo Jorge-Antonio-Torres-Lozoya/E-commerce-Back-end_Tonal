@@ -16,7 +16,7 @@ const userSchema = mongoose.Schema({
     },
     role:{
         type: 'string',
-        required: [true, 'Por favor teclea un role'],
+        required: false
     }
 
 },
